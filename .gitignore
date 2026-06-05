@@ -1,0 +1,27 @@
+# Ignore database files
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Ignore large raw dataset files
+flights.csv
+airports.csv
+L_AIRPORT_ID.csv
+
+# Keep airlines.csv as it is very small (359 bytes) and useful, but we can also ignore it
+# airlines.csv
+
+# Python caching
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Streamlit local config
+.streamlit/
+
+# OS files
+.DS_Store
+Thumbs.db
