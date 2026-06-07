@@ -1,5 +1,6 @@
 # Ignore database files
 *.db
+!airline_summary.db
 *.db-journal
 *.db-wal
 *.db-shm

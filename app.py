@@ -83,7 +83,7 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-DB_PATH = "airline_performance.db"
+DB_PATH = "airline_summary.db" if os.path.exists("airline_summary.db") else "airline_performance.db"
 
 @st.cache_resource
 def get_db_connection():
